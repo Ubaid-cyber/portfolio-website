@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubaid Ahmad Bhat - Software Developer</title>
+        <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    
+        <div class="splash-screen-container">
+                <div class="galaxy-background" id="galaxy">
+                    </div>
+
+                <div class="splash-content">
+                        <h1 id="typewriter-text"></h1>
+            
+                        <a href="#main-content-start" class="about-button" id="about-btn" onclick="loadMainContent(event)">
+                About Me
+            </a>
+        </div>
+    </div>
+    
+        <div id="main-content-start" class="main-portfolio-content-wrapper">
+        
+                <header class="main-header empty-header">
+            <a href="#main-content-start" class="logo">Ubaid Ahmad Bhat</a>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+                <section id="about-me" class="content-section">
+                        
+            <div class="profile-area">
+                
+                <div class="profile-photo-container">
+                    <img src="Assets/IMAGES/ubaid_profile.png" alt="Ubaid Ahmad Bhat Profile Photo" class="profile-photo">
+                </div>
+
+                                <div class="profile-text" style="opacity: 0; transform: translateY(20px);">
+                                        <p>
+                        <strong class="bio-intro">I am pursuing M.Tech with a strong passion for full-stack development and a solid foundation in core computer science. My studies combine practical skills in web development with a theoretical understanding of Data Structures & Algorithms (DSA).</strong>
+                        <br><br>
+                        I have in-depth knowledge of how systems work at a fundamental level, thanks to my coursework in Operating Systems and Computer Networks, which allows me to build robust and high-performing applications. I am a dedicated problem-solver eager to contribute my skills to a collaborative team and create impactful technology.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section projects-grid-container">
+            <h1 class="dark-mode-h1">Projects</h1>
+            
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <img src="Assets/IMAGES/project_placeholder_1.png" alt="Project Image" class="project-image">
+                    <div class="project-details">
+                        <h3 class="project-title">E-Commerce Data Analyzer (Full Stack)</h3>
+                        
+                        <div class="tech-stack-list">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                        
+                        <div class="reasoning-block">
+                            <p><strong>Problem:</strong> Developed a system to ingest large volumes of sales data and visualize key performance indicators (KPIs) in real-time, providing actionable business intelligence.</p>
+                            <p><strong>My Role:</strong> Built a REST API (Express/Node) for data handling and designed a responsive, reusable component library (React) for the front-end dashboard.</p>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary" target="_blank">View Live Demo</a>
+                            <a href="#" class="btn btn-secondary" target="_blank">GitHub Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="Assets/IMAGES/project_placeholder_2.png" alt="Project Image" class="project-image">
+                    <div class="project-details">
+                        <h3 class="project-title">Custom Memory Allocator (C++)</h3>
+                        
+                        <div class="tech-stack-list">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Pointers</span>
+                            <span class="tech-tag">OS Concepts</span>
+                        </div>
+                        
+                        <div class="reasoning-block">
+                            <p><strong>Problem:</strong> Implemented a basic heap-based memory management system to understand low-level memory allocation, mimicking <code>malloc</code> and <code>free</code>.</p>
+                            <p><strong>My Role:</strong> Utilized **pointer arithmetic** and complex **struct pointers** (void pointers) to track and manage free blocks, demonstrating an understanding of memory access and efficiency.</p>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="#" class="btn btn-secondary" target="_blank">GitHub Code</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+                <section id="experience" class="content-section">
+            <h1 class="dark-mode-h1">Experience</h1>
+            <div class="experience-timeline">
+                </div>
+        </section>
+        
+        <section id="contact" class="content-section">
+            <h1 class="dark-mode-h1">Contact</h1>
+            </section>
+        
+        <footer class="main-footer">
+            <p>&copy; 2025 Ubaid Ahmad Bhat. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
