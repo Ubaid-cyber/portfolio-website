@@ -63,13 +63,10 @@ document.addEventListener('DOMContentLoaded', () => {
         
         const targetElement = document.getElementById('main-content-start');
         
-        // Use smooth scroll to transition from splash screen to main content
+        
         targetElement.scrollIntoView({
             behavior: 'smooth'
         });
-
-        // NEW LOGIC: Trigger the smooth text transition for the 'About Me' section
-        // We use a small delay (500ms) to let the smooth scroll start first.
         setTimeout(() => {
             const profileText = document.querySelector('#about-me .profile-text');
             if (profileText) {
